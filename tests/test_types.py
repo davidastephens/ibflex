@@ -233,8 +233,9 @@ class CashReportCurrencyTestCase(unittest.TestCase):
          'salesTaxSec="0" salesTaxCom="0" billableSalesTax="0" billableSalesTaxSec="0" '
          'billableSalesTaxCom="0" billableSalesTaxMTD="0" billableSalesTaxYTD="0" fxTranslationGainLoss="0" '
          'fxTranslationGainLossSec="0" fxTranslationGainLossCom="0" '
-         'otherFees="-521.22" otherFeesSec="-521.22" otherFeesCom="0" other="0" '
-         'otherSec="0" otherCom="0" endingCash="51.730897778" '
+         'otherFees="-521.22" otherFeesSec="-521.22" otherFeesCom="0" otherIncome="0" otherIncomeSec="0" '
+         'otherIncomeCom="0" otherIncomeMTD="0" otherIncomeYTD="0" '
+         'other="0" otherSec="0" otherCom="0" endingCash="51.730897778" '
          'endingCashSec="51.730897778" endingCashCom="0" '
          'endingSettledCash="51.730897778" endingSettledCashSec="51.730897778" '
          'endingSettledCashCom="0" />')

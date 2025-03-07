@@ -726,6 +726,11 @@ class CashReportCurrency(FlexElement):
     salesTax: Optional[decimal.Decimal] = None
     salesTaxSec: Optional[decimal.Decimal] = None
     salesTaxCom: Optional[decimal.Decimal] = None
+    otherIncome: Optional[decimal.Decimal] = None
+    otherIncomeSec: Optional[decimal.Decimal] = None
+    otherIncomeCom: Optional[decimal.Decimal] = None
+    otherIncomeMTD: Optional[decimal.Decimal] = None
+    otherIncomeYTD: Optional[decimal.Decimal] = None
     other: Optional[decimal.Decimal] = None
     otherSec: Optional[decimal.Decimal] = None
     otherCom: Optional[decimal.Decimal] = None
